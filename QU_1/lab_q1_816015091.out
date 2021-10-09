@@ -1,0 +1,216 @@
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16
+tail 0
+chksum 0x67
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0xee
+load 0x3ffe8420, len 3328, room 8
+tail 8
+chksum 0x94
+csum 0x94
+I (46) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (46) boot: compile time 14:18:24
+I (46) qio_mode: Enabling default flash chip QIO
+I (55) boot: SPI Speed      : 40MHz
+I (61) boot: SPI Mode       : QIO
+I (67) boot: SPI Flash Size : 1MB
+I (73) boot: Partition Table:
+I (79) boot: ## Label            Usage          Type ST Offset   Length
+I (90) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (102) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (113) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (125) boot: End of partition table
+I (131) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map
+I (184) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0713c ( 28988) map
+I (195) esp_image: segment 2: paddr=0x00033dc4 vaddr=0x3ffe8000 size=0x00544 (  1348) load
+I (196) esp_image: segment 3: paddr=0x00034310 vaddr=0x40100000 size=0x00080 (   128) load
+I (209) esp_image: segment 4: paddr=0x00034398 vaddr=0x40100080 size=0x050c0 ( 20672) load
+I (229) boot: Loaded app from partition at offset 0x10000
+Hello world! My name is Trent Reuben. ID number: 816015091
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 1MB external flash
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16
+tail 0
+chksum 0x67
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0xee
+load 0x3ffe8420, len 3328, room 8
+tail 8
+chksum 0x94
+csum 0x94
+I (85) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (85) boot: compile time 14:18:24
+I (87) qio_mode: Enabling default flash chip QIO
+I (103) boot: SPI Speed      : 40MHz
+I (116) boot: SPI Mode       : QIO
+I (129) boot: SPI Flash Size : 1MB
+I (142) boot: Partition Table:
+I (153) boot: ## Label            Usage          Type ST Offset   Length
+I (176) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (199) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (222) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (245) boot: End of partition table
+I (258) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map
+I (341) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0713c ( 28988) map
+I (356) esp_image: segment 2: paddr=0x00033dc4 vaddr=0x3ffe8000 size=0x00544 (  1348) load
+I (364) esp_image: segment 3: paddr=0x00034310 vaddr=0x40100000 size=0x00080 (   128) load
+I (391) esp_image: segment 4: paddr=0x00034398 vaddr=0x40100080 size=0x050c0 ( 20672) load
+I (427) boot: Loaded app from partition at offset 0x10000
+Hello world! My name is Trent Reuben. ID number: 816015091
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 1MB external flash
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16
+tail 0
+chksum 0x67
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0xee
+load 0x3ffe8420, len 3328, room 8
+tail 8
+chksum 0x94
+csum 0x94
+I (85) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (85) boot: compile time 14:18:24
+I (87) qio_mode: Enabling default flash chip QIO
+I (103) boot: SPI Speed      : 40MHz
+I (116) boot: SPI Mode       : QIO
+I (129) boot: SPI Flash Size : 1MB
+I (142) boot: Partition Table:
+I (153) boot: ## Label            Usage          Type ST Offset   Length
+I (176) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (199) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (222) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (245) boot: End of partition table
+I (258) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map
+I (341) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0713c ( 28988) map
+I (356) esp_image: segment 2: paddr=0x00033dc4 vaddr=0x3ffe8000 size=0x00544 (  1348) load
+I (364) esp_image: segment 3: paddr=0x00034310 vaddr=0x40100000 size=0x00080 (   128) load
+I (391) esp_image: segment 4: paddr=0x00034398 vaddr=0x40100080 size=0x050c0 ( 20672) load
+I (427) boot: Loaded app from partition at offset 0x10000
+Hello world! My name is Trent Reuben. ID number: 816015091
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 1MB external flash
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16
+tail 0
+chksum 0x67
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0xee
+load 0x3ffe8420, len 3328, room 8
+tail 8
+chksum 0x94
+csum 0x94
+I (85) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (85) boot: compile time 14:18:24
+I (87) qio_mode: Enabling default flash chip QIO
+I (103) boot: SPI Speed      : 40MHz
+I (116) boot: SPI Mode       : QIO
+I (129) boot: SPI Flash Size : 1MB
+I (142) boot: Partition Table:
+I (153) boot: ## Label            Usage          Type ST Offset   Length
+I (176) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (199) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (222) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (245) boot: End of partition table
+I (258) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map
+I (341) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0713c ( 28988) map
+I (356) esp_image: segment 2: paddr=0x00033dc4 vaddr=0x3ffe8000 size=0x00544 (  1348) load
+I (364) esp_image: segment 3: paddr=0x00034310 vaddr=0x40100000 size=0x00080 (   128) load
+I (391) esp_image: segment 4: paddr=0x00034398 vaddr=0x40100080 size=0x050c0 ( 20672) load
+I (427) boot: Loaded app from partition at offset 0x10000
+Hello world! My name is Trent Reuben. ID number: 816015091
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 1MB external flash
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16
+tail 0
+chksum 0x67
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0xee
+load 0x3ffe8420, len 3328, room 8
+tail 8
+chksum 0x94
+csum 0x94
+I (85) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (85) boot: compile time 14:18:24
+I (87) qio_mode: Enabling default flash chip QIO
+I (103) boot: SPI Speed      : 40MHz
+I (116) boot: SPI Mode       : QIO
+I (129) boot: SPI Flash Size : 1MB
+I (142) boot: Partition Table:
+I (153) boot: ## Label            Usage          Type ST Offset   Length
+I (176) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (199) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (222) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (245) boot: End of partition table
+I (258) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map
+I (341) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0713c ( 28988) map
+I (356) esp_image: segment 2: paddr=0x00033dc4 vaddr=0x3ffe8000 size=0x00544 (  1348) load
+I (364) esp_image: segment 3: paddr=0x00034310 vaddr=0x40100000 size=0x00080 (   128) load
+I (391) esp_image: segment 4: paddr=0x00034398 vaddr=0x40100080 size=0x050c0 ( 20672) load
+I (427) boot: Loaded app from partition at offset 0x10000
+Hello world! My name is Trent Reuben. ID number: 816015091
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 1MB external flash
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
+
+ ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+load 0x40100000, len 7040, room 16
+tail 0
+chksum 0x67
+load 0x3ffe8408, len 24, room 8
+tail 0
+chksum 0xee
+load 0x3ffe8420, len 3328, room 8
+tail 8
+chksum 0x94
+csum 0x94
+I (85) boot: ESP-IDF v3.4-49-g0f200b46-dirty 2nd stage bootloader
+I (85) boot: compile time 14:18:24
+I (87) qio_mode: Enabling default flash chip QIO
+I (103) boot: SPI Speed      : 40MHz
+I (116) boot: SPI Mode       : QIO
+I (129) boot: SPI Flash Size : 1MB
+I (142) boot: Partition Table:
+I (153) boot: ## Label            Usage          Type ST Offset   Length
+I (176) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (199) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (222) boot:  2 factory          factory app      00 00 00010000 000f0000
+I (245) boot: End of partition table
+I (258) esp_image: segment 0: paddr=0x00010010 vaddr=0x40210010 size=0x1cc68 (117864) map
+I (341) esp_image: segment 1: paddr=0x0002cc80 vaddr=0x4022cc78 size=0x0713c ( 28988) map
+I (356) esp_image: segment 2: paddr=0x00033dc4 vaddr=0x3ffe8000 size=0x00544 (  1348) load
+I (364) esp_image: segment 3: paddr=0x00034310 vaddr=0x40100000 size=0x00080 (   128) load
+I (391) esp_image: segment 4: paddr=0x00034398 vaddr=0x40100080 size=0x050c0 ( 20672) load
+I (427) boot: Loaded app from partition at offset 0x10000
+Hello world! My name is Trent Reuben. ID number: 816015091
+This is ESP8266 chip with 1 CPU cores, WiFi, silicon revision 1, 1MB external flash
+Restarting in 1 seconds...
+Restarting in 0 seconds...
+Restarting now.
